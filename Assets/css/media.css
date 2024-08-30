@@ -1,0 +1,127 @@
+body {
+    background-color: #FAFAFA; /*#8AAAE5;*/
+    margin: 0px;
+    height: auto;
+}
+main {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+} 
+a:hover {
+    color: black;
+    background-color:#c9d6f0;
+    border-radius: 20px;
+}
+footer a:hover {
+    color: rgb(123, 12, 228);
+}
+header {
+    border-radius: 0px 0px 16px 16px;
+}
+header a {
+    color: #FFFCF8;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+header, footer {
+    background-color: #0b1e43ef;
+    padding: 20px;
+    text-align: center;
+}
+footer p, footer a {
+    margin-bottom: 0px;
+    color:#FFFCF8;
+    font-size: .86rem;
+}
+.socials {
+    display: flex;
+    justify-content:center;
+    gap: 15px; 
+    padding-top: 20px;
+}
+.intro-audio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+audio {
+    max-width: 80%;
+    background-color: red;
+}
+audio:hover {
+    background-color: greenyellow;
+}
+h1 {
+    color: #578ebd; 
+    margin-bottom: 10px;
+}
+.gallery {
+    padding: 40px 20px;  
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.gallery > div {
+    display: flex;
+    flex-direction: column; 
+    flex: 1;                  
+    margin: 0 10px;           
+    max-width: 100%;        
+}
+.gallery picture>img, .gallery video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.mobile {
+    display: none;
+}
+@media (max-width: 500px) {
+    .gallery {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        max-width: 100%;
+        margin: 10px;
+        padding: 10px;
+        flex-direction: row;
+        box-sizing: border-box;  
+    }
+    h1, p{
+        margin-top: 0px ;
+    }
+    img, picture, video {
+        max-width: 100px;
+        width: 100%;
+        height: auto;
+    }
+    header a {
+        text-align: center;
+        padding: 5px; 
+        display: block;
+        font-size: 16px;
+    }
+    footer, header {
+        padding: 5px;
+        max-width: 100%;
+    }
+    footer >a, footer>p {
+        font-size: 0.75rem;
+    }
+    .socials {
+        padding:10px;
+    }
+}   

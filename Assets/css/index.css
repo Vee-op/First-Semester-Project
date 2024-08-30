@@ -1,0 +1,83 @@
+body {
+    background-color:#0e9cb55b;  /*#8AAAE5;*/ 
+    margin: 0px; 
+}
+header {
+    background-color: #0b1e43ef;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px 0px 16px 16px;
+}
+header a {
+    color: #FFFCF8;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+main {
+    font-size: 16.5px;
+    line-height: 1.5rem;
+    text-align: left;  
+}
+.introduction {
+    text-align: justify;
+    padding: 40px;
+}
+h1 {
+    text-align: center;
+}
+.my-image {
+    float: left;
+    margin-right:20px;
+    height: auto;
+    width: 20.1%;
+    border-radius: 16px
+}
+.why-alt {
+    background-color:#FAFAFA; /*hsl(32, 25%, 90%);*/
+    padding: 40px;
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+    border: 1px solid transparent;
+    margin-top: 0px;
+}
+.my-goals {
+   text-align: left;
+    padding: 40px;
+}
+ol {
+    list-style-type: "❇️";
+    padding-left: 20px;
+}
+ul {
+    line-height: 3rem;
+    list-style-type: "☑️"; /*❇️*/
+}
+a {
+    text-decoration: none;
+} 
+a:hover {
+    color: black;
+    background-color:#c9d6f0;
+    border-radius: 20px;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #0b1e43ef;
+}
+footer p, footer a {
+    margin-bottom: 0px;
+    color:#FFFCF8;
+    font-size: .86rem;
+}
+footer a:hover {
+    color: rgb(123, 12, 228);
+}
+.socials {
+    display: flex;
+    justify-content:center;
+    gap: 15px; 
+    padding-top: 20px;
+}
