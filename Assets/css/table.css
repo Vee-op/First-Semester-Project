@@ -32,6 +32,7 @@ header, footer {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    height: 80vh;
 }
 table {
     table-layout: fixed;
@@ -99,5 +100,6 @@ footer p, footer a {
     }
     .table-section {
         padding: 40px 0px;
+        margin-bottom: 10px;
     }
 }   
