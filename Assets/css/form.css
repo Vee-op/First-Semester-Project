@@ -140,6 +140,7 @@ button:hover {
         align-items: center;
         background: #FFFCF8;
         padding-bottom: 50px;
+        width: 100%;
     }
     .site-navigation {
         flex: 2;

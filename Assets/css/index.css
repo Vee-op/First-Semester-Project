@@ -81,3 +81,8 @@ footer a:hover {
     gap: 15px; 
     padding-top: 20px;
 }
+@media (max-width: 600px) {
+    header a, a:hover {
+        padding: 10px;
+    }
+}
